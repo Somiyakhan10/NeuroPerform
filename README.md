@@ -46,7 +46,7 @@ cross-validated ROC-AUC from 0.824 to 0.835.
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/NeuroPerform.git
+git clone https://github.com/<Somiyakhan10>/NeuroPerform.git
 cd NeuroPerform
 pip install -r requirements.txt
 ```
@@ -62,17 +62,6 @@ python tests/test_dashboard.py
 
 The notebook `NeuroPerform_Colab.ipynb` runs the complete pipeline in Google Colab (**Runtime → Run all**).
 
-## Project Structure
-
-```
-app.py                     Streamlit dashboard
-NeuroPerform_Colab.ipynb   End-to-end notebook
-src/pipeline.py            Data acquisition, features, statistics, ML
-data/                      Raw NHANES files and processed dataset
-models/                    Trained models (.joblib)
-results/                   Metrics, statistics and figures
-tests/                     Output verification and dashboard tests
-docs/                      Data sources and screenshots
 ```
 
 ## Data
@@ -87,7 +76,4 @@ The cohort comprises older community-dwelling adults rather than athletes. NHANE
 task, and fatigue is self-reported. The framework is designed to transfer to athletic populations with reaction-time,
 balance and concussion data.
 
-## Disclaimer
 
-NeuroPerform is a research prototype. Its predictions are experimental and must not be used for clinical diagnosis or
-individual decision-making.
