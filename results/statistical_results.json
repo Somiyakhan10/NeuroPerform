@@ -1,0 +1,411 @@
+{
+  "spearman_matrix": {
+    "dsst_score": {
+      "dsst_score": 1.0,
+      "animal_fluency": 0.499,
+      "cerad_immediate": 0.49,
+      "cerad_delayed": 0.46,
+      "grip_combined_kg": 0.085,
+      "grip_cv_pct": -0.066,
+      "grip_asymmetry_pct": -0.036,
+      "grip_change_pct": 0.008,
+      "tiredness_score": -0.05,
+      "sleep_hours": -0.015,
+      "recreation_min_week": 0.223,
+      "age": -0.288,
+      "education": 0.525
+    },
+    "animal_fluency": {
+      "dsst_score": 0.499,
+      "animal_fluency": 1.0,
+      "cerad_immediate": 0.397,
+      "cerad_delayed": 0.356,
+      "grip_combined_kg": 0.137,
+      "grip_cv_pct": -0.043,
+      "grip_asymmetry_pct": -0.039,
+      "grip_change_pct": 0.004,
+      "tiredness_score": -0.061,
+      "sleep_hours": -0.019,
+      "recreation_min_week": 0.168,
+      "age": -0.205,
+      "education": 0.325
+    },
+    "cerad_immediate": {
+      "dsst_score": 0.49,
+      "animal_fluency": 0.397,
+      "cerad_immediate": 1.0,
+      "cerad_delayed": 0.754,
+      "grip_combined_kg": 0.002,
+      "grip_cv_pct": -0.012,
+      "grip_asymmetry_pct": -0.044,
+      "grip_change_pct": 0.009,
+      "tiredness_score": -0.039,
+      "sleep_hours": -0.055,
+      "recreation_min_week": 0.109,
+      "age": -0.256,
+      "education": 0.298
+    },
+    "cerad_delayed": {
+      "dsst_score": 0.46,
+      "animal_fluency": 0.356,
+      "cerad_immediate": 0.754,
+      "cerad_delayed": 1.0,
+      "grip_combined_kg": -0.001,
+      "grip_cv_pct": 0.024,
+      "grip_asymmetry_pct": -0.032,
+      "grip_change_pct": 0.027,
+      "tiredness_score": -0.022,
+      "sleep_hours": -0.087,
+      "recreation_min_week": 0.107,
+      "age": -0.277,
+      "education": 0.261
+    },
+    "grip_combined_kg": {
+      "dsst_score": 0.085,
+      "animal_fluency": 0.137,
+      "cerad_immediate": 0.002,
+      "cerad_delayed": -0.001,
+      "grip_combined_kg": 1.0,
+      "grip_cv_pct": -0.175,
+      "grip_asymmetry_pct": -0.142,
+      "grip_change_pct": -0.017,
+      "tiredness_score": -0.166,
+      "sleep_hours": -0.062,
+      "recreation_min_week": 0.125,
+      "age": -0.283,
+      "education": 0.077
+    },
+    "grip_cv_pct": {
+      "dsst_score": -0.066,
+      "animal_fluency": -0.043,
+      "cerad_immediate": -0.012,
+      "cerad_delayed": 0.024,
+      "grip_combined_kg": -0.175,
+      "grip_cv_pct": 1.0,
+      "grip_asymmetry_pct": 0.082,
+      "grip_change_pct": 0.571,
+      "tiredness_score": 0.071,
+      "sleep_hours": -0.013,
+      "recreation_min_week": -0.045,
+      "age": -0.049,
+      "education": -0.044
+    },
+    "grip_asymmetry_pct": {
+      "dsst_score": -0.036,
+      "animal_fluency": -0.039,
+      "cerad_immediate": -0.044,
+      "cerad_delayed": -0.032,
+      "grip_combined_kg": -0.142,
+      "grip_cv_pct": 0.082,
+      "grip_asymmetry_pct": 1.0,
+      "grip_change_pct": 0.033,
+      "tiredness_score": 0.032,
+      "sleep_hours": 0.036,
+      "recreation_min_week": -0.034,
+      "age": 0.054,
+      "education": -0.005
+    },
+    "grip_change_pct": {
+      "dsst_score": 0.008,
+      "animal_fluency": 0.004,
+      "cerad_immediate": 0.009,
+      "cerad_delayed": 0.027,
+      "grip_combined_kg": -0.017,
+      "grip_cv_pct": 0.571,
+      "grip_asymmetry_pct": 0.033,
+      "grip_change_pct": 1.0,
+      "tiredness_score": 0.044,
+      "sleep_hours": 0.01,
+      "recreation_min_week": -0.014,
+      "age": -0.047,
+      "education": -0.039
+    },
+    "tiredness_score": {
+      "dsst_score": -0.05,
+      "animal_fluency": -0.061,
+      "cerad_immediate": -0.039,
+      "cerad_delayed": -0.022,
+      "grip_combined_kg": -0.166,
+      "grip_cv_pct": 0.071,
+      "grip_asymmetry_pct": 0.032,
+      "grip_change_pct": 0.044,
+      "tiredness_score": 1.0,
+      "sleep_hours": -0.098,
+      "recreation_min_week": -0.141,
+      "age": 0.006,
+      "education": -0.057
+    },
+    "sleep_hours": {
+      "dsst_score": -0.015,
+      "animal_fluency": -0.019,
+      "cerad_immediate": -0.055,
+      "cerad_delayed": -0.087,
+      "grip_combined_kg": -0.062,
+      "grip_cv_pct": -0.013,
+      "grip_asymmetry_pct": 0.036,
+      "grip_change_pct": 0.01,
+      "tiredness_score": -0.098,
+      "sleep_hours": 1.0,
+      "recreation_min_week": 0.029,
+      "age": 0.14,
+      "education": 0.041
+    },
+    "recreation_min_week": {
+      "dsst_score": 0.223,
+      "animal_fluency": 0.168,
+      "cerad_immediate": 0.109,
+      "cerad_delayed": 0.107,
+      "grip_combined_kg": 0.125,
+      "grip_cv_pct": -0.045,
+      "grip_asymmetry_pct": -0.034,
+      "grip_change_pct": -0.014,
+      "tiredness_score": -0.141,
+      "sleep_hours": 0.029,
+      "recreation_min_week": 1.0,
+      "age": -0.062,
+      "education": 0.233
+    },
+    "age": {
+      "dsst_score": -0.288,
+      "animal_fluency": -0.205,
+      "cerad_immediate": -0.256,
+      "cerad_delayed": -0.277,
+      "grip_combined_kg": -0.283,
+      "grip_cv_pct": -0.049,
+      "grip_asymmetry_pct": 0.054,
+      "grip_change_pct": -0.047,
+      "tiredness_score": 0.006,
+      "sleep_hours": 0.14,
+      "recreation_min_week": -0.062,
+      "age": 1.0,
+      "education": -0.027
+    },
+    "education": {
+      "dsst_score": 0.525,
+      "animal_fluency": 0.325,
+      "cerad_immediate": 0.298,
+      "cerad_delayed": 0.261,
+      "grip_combined_kg": 0.077,
+      "grip_cv_pct": -0.044,
+      "grip_asymmetry_pct": -0.005,
+      "grip_change_pct": -0.039,
+      "tiredness_score": -0.057,
+      "sleep_hours": 0.041,
+      "recreation_min_week": 0.233,
+      "age": -0.027,
+      "education": 1.0
+    }
+  },
+  "key_correlations": [
+    {
+      "x": "grip_combined_kg",
+      "y": "dsst_score",
+      "rho": 0.085,
+      "p": 1.0278708077347207e-05,
+      "n": 2673
+    },
+    {
+      "x": "grip_cv_pct",
+      "y": "dsst_score",
+      "rho": -0.066,
+      "p": 0.0006394467227696694,
+      "n": 2673
+    },
+    {
+      "x": "tiredness_score",
+      "y": "dsst_score",
+      "rho": -0.05,
+      "p": 0.010943657921449494,
+      "n": 2640
+    },
+    {
+      "x": "recreation_min_week",
+      "y": "dsst_score",
+      "rho": 0.223,
+      "p": 1.95578037699431e-31,
+      "n": 2672
+    },
+    {
+      "x": "age",
+      "y": "dsst_score",
+      "rho": -0.288,
+      "p": 3.812393911573466e-52,
+      "n": 2673
+    },
+    {
+      "x": "grip_combined_kg",
+      "y": "cerad_delayed",
+      "rho": -0.001,
+      "p": 0.9483742776921887,
+      "n": 2639
+    },
+    {
+      "x": "grip_combined_kg",
+      "y": "animal_fluency",
+      "rho": 0.137,
+      "p": 1.7225299510697268e-12,
+      "n": 2618
+    }
+  ],
+  "ols_grip_adjusted": {
+    "n": 2608,
+    "r2": 0.411,
+    "grip_per_sd": {
+      "beta": 2.959,
+      "ci_low": 2.172,
+      "ci_high": 3.745,
+      "p": 2.1833692241243091e-13
+    },
+    "age_per_year": {
+      "beta": -0.563,
+      "ci_low": -0.645,
+      "ci_high": -0.481,
+      "p": 5.541264793104241e-40
+    }
+  },
+  "ols_full": {
+    "n": 2608,
+    "r2": 0.418,
+    "grip_per_sd": {
+      "beta": 2.671,
+      "ci_low": 1.881,
+      "ci_high": 3.461,
+      "p": 4.038153056082243e-11
+    },
+    "tiredness_per_point": {
+      "beta": -0.624,
+      "ci_low": -1.159,
+      "ci_high": -0.089,
+      "p": 0.02223282704435582
+    },
+    "log_recreation": {
+      "beta": 0.504,
+      "ci_low": 0.304,
+      "ci_high": 0.704,
+      "p": 7.919211040975616e-07
+    }
+  },
+  "dsst_by_vigorous_activity": {
+    "median_active": 56.0,
+    "median_inactive": 45.0,
+    "n_active": 255,
+    "n_inactive": 2418,
+    "U": 430439.0,
+    "p": 1.968727219128171e-25,
+    "rank_biserial": 0.396
+  },
+  "dsst_score_by_tiredness": {
+    "H": 32.432,
+    "p": 4.2427220382035974e-07,
+    "epsilon_sq": 0.0123,
+    "medians": {
+      "0": 47.0,
+      "1": 49.0,
+      "2": 43.0,
+      "3": 40.0
+    },
+    "n_per_level": {
+      "0": 1467,
+      "1": 735,
+      "2": 175,
+      "3": 263
+    }
+  },
+  "grip_combined_kg_by_tiredness": {
+    "H": 79.857,
+    "p": 3.2938312132314903e-17,
+    "epsilon_sq": 0.0303,
+    "medians": {
+      "0": 61.6,
+      "1": 55.0,
+      "2": 57.0,
+      "3": 51.3
+    },
+    "n_per_level": {
+      "0": 1467,
+      "1": 735,
+      "2": 175,
+      "3": 263
+    }
+  },
+  "grip_repeated_trials": {
+    "h1": {
+      "means": [
+        27.9,
+        29.31,
+        29.7
+      ],
+      "chi2": 1009.67,
+      "p": 5.6724782776255944e-220,
+      "pct_with_decrement": 23.6
+    },
+    "h2": {
+      "means": [
+        28.6,
+        29.67,
+        29.96
+      ],
+      "chi2": 787.87,
+      "p": 8.242400147034657e-172,
+      "pct_with_decrement": 25.8
+    }
+  },
+  "variability_by_age": [
+    {
+      "age_group": "60-64",
+      "n": 847,
+      "dsst_mean": 52.06,
+      "dsst_sd": 17.31,
+      "grip_mean": 66.85,
+      "grip_sd": 19.58,
+      "grip_trial_cv": 5.94,
+      "dsst_cv_pct": 33.25,
+      "grip_cv_between_pct": 29.29
+    },
+    {
+      "age_group": "65-69",
+      "n": 595,
+      "dsst_mean": 47.36,
+      "dsst_sd": 17.07,
+      "grip_mean": 64.24,
+      "grip_sd": 19.48,
+      "grip_trial_cv": 5.62,
+      "dsst_cv_pct": 36.04,
+      "grip_cv_between_pct": 30.32
+    },
+    {
+      "age_group": "70-74",
+      "n": 512,
+      "dsst_mean": 45.54,
+      "dsst_sd": 16.43,
+      "grip_mean": 59.99,
+      "grip_sd": 18.49,
+      "grip_trial_cv": 5.46,
+      "dsst_cv_pct": 36.08,
+      "grip_cv_between_pct": 30.82
+    },
+    {
+      "age_group": "75-80",
+      "n": 719,
+      "dsst_mean": 38.91,
+      "dsst_sd": 14.99,
+      "grip_mean": 52.94,
+      "grip_sd": 16.89,
+      "grip_trial_cv": 5.63,
+      "dsst_cv_pct": 38.53,
+      "grip_cv_between_pct": 31.9
+    }
+  ],
+  "grip_cv_vs_age": {
+    "rho": -0.049,
+    "p": 0.010778131148656585
+  },
+  "participant_flow": {
+    "merged_participants": 19931,
+    "age_60_plus": 3632,
+    "with_dsst_score": 3014,
+    "with_all_6_grip_trials": 2673,
+    "final_analytic_sample": 2673,
+    "dsst_low_cutoff": 34.0
+  }
+}
